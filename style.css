@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+}
+
+body {
+  width: 40rem;
+  height: 81.2rem;
+
+  background: var(--background);
+}
+
+.page {
+  border: .1rem solid red;
+
+  margin: 0 auto;
+}
+
+form {
+
+  border: .1rem solid red;
+  background: var(--form-background);
+}
+
+input:focus-within {
+  background-color: #ffc632;
+}
+
+header{
+  padding: 4rem 2rem 2.7rem 2rem ;
+}
+
+header p {
+  width: 16rem;
+  height: 4rem;
+
+  font-family: 'Popins';
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+
+  color: var(--text-title);
+}
+
+header section h1 {
+  width: 40rem;
+  height: 3.6rem;
+
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+
+  color: var(--text-title);
+}
+
+header section p {
+  width: 35rem;
+  height: 25rem;
+
+  margin-top: .3rem;
+  margin-bottom: 3rem;
+
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+
+color: var(--text-base);
+}
+
+form fieldset label {
+  width: 6rem;
+  height: 3rem;
+
+  font-family: 'Popins';
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+
+  color: var(--text-base);
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem 2.4rem;
+  gap: 1rem;
+
+  width: 35rem;
+  height: 5rem;
+
+  background: var(--primary-color);
+  border-radius: .4rem;
+}
+
