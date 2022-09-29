@@ -15,60 +15,90 @@
 </head>
 
 <body>
+	<div class="logo">
+		<img src="./images/logo.svg" alt="">
+	</div>
+	<div class="container">
+		<div class="content">
+			<!-- <img src="./images/logo.svg" alt="logo marca" /> -->
+			<div class="panel">
+				<form>
+					<div class="form-header">
+						<h1>
+							<img src="./images/log-in.svg" alt="imagem de uma seta para efetuar login" />
+							Faça seu login
+						</h1>
+						<p>
+							Entre com suas informações de cadastro.
+						</p>
+					</div>
+					<!-- <form> -->
+					<!--email-->
+					<label for="email">E-mail</label>
+					<div class="container-input">
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M3.33329 3.33331H16.6666C17.5833 3.33331 18.3333 4.08331 18.3333 4.99998V15C18.3333 15.9166 17.5833 16.6666 16.6666 16.6666H3.33329C2.41663 16.6666 1.66663 15.9166 1.66663 15V4.99998C1.66663 4.08331 2.41663 3.33331 3.33329 3.33331Z"
+								stroke="#AFB6C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							<path d="M18.3333 5L9.99996 10.8333L1.66663 5" stroke="#AFB6C2" stroke-width="2" stroke-linecap="round"
+								stroke-linejoin="round" />
+						</svg>
+						<input type="email" name="email" id="email" placeholder="Digite seu e-email">
+					</div>
 
-	<header>
+					<br>
+					<!--Password-->
+					<label for="password">Senha</label>
+					<div class="container-input">
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M15.8333 9.16669H4.16667C3.24619 9.16669 2.5 9.91288 2.5 10.8334V16.6667C2.5 17.5872 3.24619 18.3334 4.16667 18.3334H15.8333C16.7538 18.3334 17.5 17.5872 17.5 16.6667V10.8334C17.5 9.91288 16.7538 9.16669 15.8333 9.16669Z"
+								stroke="#AFB6C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							<path
+								d="M5.83337 9.16669V5.83335C5.83337 4.72828 6.27236 3.66848 7.05376 2.88708C7.83516 2.10567 8.89497 1.66669 10 1.66669C11.1051 1.66669 12.1649 2.10567 12.9463 2.88708C13.7277 3.66848 14.1667 4.72828 14.1667 5.83335V9.16669"
+								stroke="#AFB6C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+						<input type="password" name="password" id="password" placeholder="Digite sua senha">
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_222_89)">
+								<path
+									d="M0.833374 9.99998C0.833374 9.99998 4.16671 3.33331 10 3.33331C15.8334 3.33331 19.1667 9.99998 19.1667 9.99998C19.1667 9.99998 15.8334 16.6666 10 16.6666C4.16671 16.6666 0.833374 9.99998 0.833374 9.99998Z"
+									stroke="#AFB6C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path
+									d="M10 12.5C11.3807 12.5 12.5 11.3807 12.5 10C12.5 8.61929 11.3807 7.5 10 7.5C8.61929 7.5 7.5 8.61929 7.5 10C7.5 11.3807 8.61929 12.5 10 12.5Z"
+									stroke="#AFB6C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</g>
+							<defs>
+								<clipPath id="clip0_222_89">
+									<rect width="20" height="20" fill="white" />
+								</clipPath>
+							</defs>
+						</svg>
+					</div>
+					
+					<!--check-boxAndParagraph-->
+					<div class="checkAndParagraph">
+						<div class="check">
+							<input type="checkbox" name="check-box" id="check-box">
+							<label for="check-box">Lembre-me</label>
+						</div>
+						<p><span>Esqueci minha senha</span></p>
+					</div>
 
-	</header>
-	<div class="login">
+					<button>ENTRAR</button>
+					<!-- </form> -->
 
-		<img src="./images/logo.svg" alt="logo marca" />
-
-		<h1>
-			<img src="./images/log-in.svg" alt="imagem de uma seta para efetuar login" />
-			Faça seu login
-		</h1>
-		<p>
-			Entre com suas informações de cadastro.
-		</p>
+					<footer>
+						<p>Não tem uma conta? <span>Registre-se</span></p>
+					</footer>
+				</form>
+			</div>
+		</div>
+		<div class="background">
+			<!-- <img src="./images/side-image.jpg" alt=""> -->
+		</div>
 	</div>
 
-	<form>
-		<div class="data">
-
-			<p>
-				<label for="adress">email</label>
-				<input type="email" name="adress" id="adress" placeholder="Digite seu email" />
-
-			</p>
-			<br />
-
-			<p>
-				<label for="password">Senha: </label>
-				<input type="password" name="password" id="password" placeholder="Digite sua senha" />
-
-			</p>
-
-		</div>
-
-		<div class="forget">
-			<p>
-				<input type="checkbox" name="check" id="check" />
-				<label for="check">Lembre-me</label>
-			</p>
-
-			<br />
-
-			<p><span>Esqueci minha senha</span></p>
-		</div>
-	</form>
-
-	<button>
-		ENTRAR
-	</button>
 </body>
-
-<footer>
-	Não tem uma conta? <span>Registre-se</span>
-</footer>
 
 </html>
