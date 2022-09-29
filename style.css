@@ -1,109 +1,53 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 :root {
   font-size: 62.5%;
-
-  --text-base: #afb6c2;
-  --text-title: #d4ccb6;
-  --background: #191816;
-  --form-background: #24221f;
-  --primary-color: #ffc632;
 }
 
 body {
-  width: 40rem;
-  height: 81.2rem;
+  font-size: 1.6rem;
 
-  background: var(--background);
+  background-color: #e5e5e5;
 }
 
-.page {
-  border: .1rem solid red;
+.login {
+  max-width: 35rem;
+  max-height: 15rem;
 
-  margin: 0 auto;
+  padding: 4rem 2rem 3rem 2rem;
 }
 
-form {
-
-  border: .1rem solid red;
-  background: var(--form-background);
-}
-
-input:focus-within {
-  background-color: #ffc632;
-}
-
-header{
-  padding: 4rem 2rem 2.7rem 2rem ;
-}
-
-header p {
-  width: 16rem;
+h1 {
+  width: 25rem;
   height: 4rem;
-
-  font-family: 'Popins';
-  font-weight: 700;
-  font-size: 1.8rem;
-  line-height: 2.7rem;
-
-  color: var(--text-title);
-}
-
-header section h1 {
-  width: 40rem;
-  height: 3.6rem;
 
   font-family: 'Poppins';
   font-weight: 600;
   font-size: 2.4rem;
-  line-height: 3.6rem;
+  line-height: 4rem;
 
-  color: var(--text-title);
+  color: #d4ccb6;
+
+  margin-bottom: .5rem;
+
+  padding-left: 2rem;
 }
 
-header section p {
+p {
   width: 35rem;
-  height: 25rem;
-
-  margin-top: .3rem;
-  margin-bottom: 3rem;
+  height: 2.5rem;
 
   font-family: 'Roboto';
   font-weight: 500;
-  font-size: 1.6rem;
   line-height: 2.5rem;
 
-color: var(--text-base);
+  color: #afb6c2;
 }
 
-form fieldset label {
-  width: 6rem;
-  height: 3rem;
-
-  font-family: 'Popins';
-  font-weight: 500;
-  font-size: 1.6rem;
-  line-height: 2.5rem;
-
-  color: var(--text-base);
+.data {
+  
 }
-
-button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 1.2rem 2.4rem;
-  gap: 1rem;
-
-  width: 35rem;
-  height: 5rem;
-
-  background: var(--primary-color);
-  border-radius: .4rem;
-}
-
